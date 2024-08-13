@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: blueviolet;
+  
+    }
+    .class{
+      width: 300px;
+      height: 350px;
+      margin: 0 auto;
+      margin-top: 200px;
+      background-color: aliceblue;
+      text-align: center;
+      border-radius: 10px;
+    
+    }
+    .s{
+      font-size: 30px;
+      margin-top: 20px;
+    }
+    .ss{
+      width: 250px;
+      height: 30px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .c{
+      font-size: 20px;
+    }
+    .cl{
+      width: 100px;
+      height: 30px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    button{
+      width: 250px;
+      height: 50px;
+      border-radius: 10px;
+      margin-top: 20px;
+      background-color: rgb(0, 255, 60);
+      color: aliceblue;
+    }
+
+</style>
+<body>
+    
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+      </head>
+      <body>
+        <div class="class">
+        <div class="wrapper">
+          <form>
+            <label for="i" class="s">Summani Kiriting</label> <br /><br />
+            <input id="i" class="ss" type="number" /> <br /><br />
+    
+            <label class="c">From</label>
+            <select id="fromSelect" class="cl">
+              <option value="uzs">Uzbekistan</option>
+              <option value="rub">Russia</option>
+              <option selected value="usd">USA</option>
+            </select>
+            
+            <label class="c">To</label>
+            <select id="toSelect" class="cl">
+              <option selected value="uzs">Uzbekistan</option>
+              <option value="rub">Russia</option>
+              <option value="usd">USA</option>
+            </select>
+            <br /><br />
+            <button>Submit</button>
+          </form>
+    
+          <h2 id="convert"></h2>
+        </div>
+    </div>
+        <script src="./script.js"></script>
+      </body>
+    </html>
